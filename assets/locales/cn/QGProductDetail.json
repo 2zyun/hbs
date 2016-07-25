@@ -1,0 +1,48 @@
+{
+  "product": {
+    "price": "供应价格",
+    "site": "所在地",
+    "inventory": "库存现货",
+    "packing": "包装",
+    "singleWeight": "单包重量",
+    "color": "颜色",
+    "density": "密度",
+    "processing": "加工原料",
+    "impurity": "杂质",
+    "moisture": "水分",
+    "meshNumber": "目数",
+    "calcium": "含钙量",
+    "combustion": "阻燃性"
+  },
+  "unit": {
+    "currency": "元",
+    "weight-t": "吨",
+    "weight-kg": "千克",
+    "percent": "%",
+    "layer": "层",
+    "mesh": "目"
+  },
+  "density": {
+    "density-1": "未知",
+    "density1": "沉水",
+    "density2": "漂浮",
+    "density3": "半浮"
+  },
+  "details": {
+    "title": "详情描述",
+    "usedFor": "用途",
+    "objectProperty": "物性"
+  },
+  "lookPhone": "查看联系方式",
+  "publish": "免费发布需求",
+  "collect": "收藏商品",
+  "issue": "我也要发布",
+  "top": "回到顶部",
+  "process": {
+    "register_login": "注册/登录",
+    "con1": "寻找合适供货源",
+    "con2": "查看联系方式",
+    "con3": "双方洽谈",
+    "con4": "完成交易"
+  }
+}

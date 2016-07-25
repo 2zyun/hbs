@@ -1,0 +1,21 @@
+@charset 'utf-8';
+
+@import "base.css";
+
+/*! 
+ * @名称：common.css 
+ * @功能：1、重写bootstrap.css 
+ *        2、设置通用类 
+ */
+
+
+/* btn */
+
+.btn-default.btn_pink{ background-color: #ffeded;border-color:#c81623;color:#c81623; }
+.btn-primary.btn_submit{ background-color: #c81623;border-color:#c81623;color:#ffffff; }
+.btn-box{ text-align:center; }
+.user-title{background-color: #c81624;border-color:#c81624;color:#ffffff; }
+
+/* num */
+.num{ color:#eb4132; }
+

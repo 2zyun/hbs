@@ -1,0 +1,25 @@
+{
+  "nav": {
+    "home": "首页",
+    "page1": "现货商城",
+    "page2": "自主采购"
+    },
+    "inventory":"库存：",
+    "tons":"吨",
+    "price":"价格：",
+    "location":"所在地：",
+    "orderNow":"立即下单",
+
+    "phone":"phone：",
+    "ph_phone":"phone",
+    "uname":"username :",
+    "ph_uname":"username",
+    "mail":"e-mail：",
+    "ph_mail":"e-mail",
+    "qq":"qq：",
+    "ph_qq":"qq",
+    "btn_submit":"提交"
+
+
+
+  }

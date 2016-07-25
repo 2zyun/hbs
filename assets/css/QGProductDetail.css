@@ -1,0 +1,371 @@
+@charset "utf-8";
+
+ul, p {
+    margin: 0;
+}
+
+.select-none {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*以上是共通样式*/
+.content-box {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.content-top-box {
+    position: relative;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+
+.content-pic, .content-info {
+    float: left;
+}
+
+.content-pic {
+    width: 300px;
+}
+
+.content-pic-big {
+    position: relative;
+    border: 1px solid #ccc;
+    height: 300px;
+}
+
+.content-pic-big img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-pic-list-box {
+    margin-top: 10px;
+    height: 60px;
+}
+
+.content-pic-list-box > div {
+    float: left;
+}
+
+.content-pic-list-box .content-pic-list-btn {
+    width: 20px;
+    height: 40px;
+    margin-top: 10px;
+    background: url("../img/content_pic_btn.png") no-repeat;
+}
+
+.content-pic-list-box .btn-left {
+    background-position: left top;
+    margin-right: 20px;
+}
+
+.content-pic-list-box .btn-right {
+    background-position: right top;
+    margin-left: 20px;
+}
+
+.content-pic-list-box .btn-left.valid {
+    background-position: left bottom;
+    margin-right: 20px;
+}
+
+.content-pic-list-box .btn-right.valid {
+    background-position: right bottom;
+    margin-left: 20px;
+}
+
+.content-pic-list-box .content-pic-list {
+    width: 220px;
+    height: 100%;
+}
+
+.content-pic-list {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.content-pic-list ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 800px;
+}
+
+.content-pic-list ul li {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.content-pic-list img.check {
+    border: 1px solid #c81623;
+}
+
+.content-pic-list img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid transparent;
+}
+
+.content-info {
+    margin-left: 24px;
+    width: 784px;
+}
+
+.product-title > h1 {
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #666;
+}
+
+.product-title > h1, .product-title > span, .product-content-top li > h2, .product-content-top li > span {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.product-title > h1 {
+    font-size: 20px;
+    max-width: 640px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.product-title > span {
+    line-height: 25px;
+    font-size: 12px;
+    padding-left: 35px;
+    margin-left: 40px;
+    background: url("../img/ico_number.png") no-repeat center left;
+}
+
+.product-content-top {
+    padding: 20px;
+    background: #f7f7f7;
+}
+
+.product-content-top li {
+    margin-bottom: 10px;
+}
+
+.product-content-top li:last-child {
+    margin-bottom: 0;
+}
+
+.product-content-top li > span {
+    line-height: 30px;
+}
+
+.product-content-top .product-content-title {
+    font-size: 14px;
+}
+
+.product-content-bottom {
+    padding: 10px 20px;
+    border-bottom: 1px dotted #c5c5c5;
+}
+
+.product-content-bottom ul {
+    width: 690px;
+}
+
+.product-content-bottom li {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 30px;
+    float: left;
+    font-size: 12px;
+    color: #666;
+}
+
+.product-bottom-btn-box {
+    position: absolute;
+    bottom: 43px;
+}
+
+.product-bottom-btn {
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0 15px;
+    border-radius: 5px;
+    border: 1px solid #c81623;
+    color: #c81623;
+    font-size: 16px;
+    background-color: #ffeded;
+}
+
+.product-bottom-btn.red-btn {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.publish-btn, .publish-btn:visited, .publish-btn:active, .publish-btn:focus, .publish-btn:hover {
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0 15px;
+    color: #c81623;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.product-content-num-val {
+    font-size: 18px;
+    font-weight: bold;
+    color: #b61d1d;
+}
+
+/*下部数据-详情描述*/
+.content-details-box {
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+/*下部数据-详情描述->标题*/
+.content-details-box .details-title {
+    height: 40px;
+}
+
+.details-title ul li {
+    padding: 0 20px;
+    float: left;
+    line-height: 40px;
+    border-right: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.details-title a, .details-title a:visited, .details-title a:active, .details-title a:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+.details-title a:hover {
+    color: #c81623;
+}
+
+/*下部数据-详情描述->内容*/
+.details-con .details-con-top, .details-con .details-con-foot {
+    border-top: 1px solid #ccc;
+    padding: 20px;
+}
+
+.details-con-top p {
+    line-height: 20px;
+}
+
+.details-con-top span.title {
+    font-weight: bold;
+}
+
+.details-con-top p {
+    margin-bottom: 15px;
+}
+
+.details-con-foot img {
+    display: block;
+    margin: 20px auto 0;
+    max-width: 1128px;
+}
+
+.details-foot {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.details-foot a {
+    margin: 0 10px;
+}
+
+.details-foot a, .details-foot a:visited, .details-foot a:active, .details-foot a:focus {
+    text-decoration: none;
+    color: #333;
+}
+
+.details-foot a:hover {
+    color: #c81623;
+}
+
+/*采购流程*/
+.process {
+    font: 16px '宋体';
+    color: #333;
+    width: 895px;
+    margin: 30px auto;
+}
+
+.process p {
+    float: left;
+    font-weight: bold;
+    padding-right: 15px;
+    line-height: 52px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.process ul {
+    float: left;
+    height: 44px;
+}
+
+.process li {
+    position: relative;
+    float: left;
+    line-height: 24px;
+    padding: 0 28px 10px 0;
+    border-bottom: 4px solid #c81623;
+}
+
+.process em {
+    position: absolute;
+    right: -3px;
+    bottom: -6px;
+    width: 4px;
+    height: 6px;
+    background: url("../img/supply_bg.png") -122px -146px no-repeat;
+}
+
+.process i {
+    position: absolute;
+    bottom: -7px;
+    left: -1px;
+    width: 12px;
+    height: 12px;
+    background: url("../img/supply_bg.png") -113px -209px no-repeat;
+}
+
+.process b {
+    vertical-align: top;
+    display: inline-block;
+    height: 24px;
+    padding-right: 34px;
+    background: url("../img/supply_bg.png") 0 0 no-repeat;
+}
+
+.process_b_bg1 b {
+    background-position: 0 -26px;
+}
+
+.process_b_bg2 b {
+    background-position: 0 -50px;
+}
+
+.process_b_bg6 b {
+    background-position: 0 -258px;
+}
+
+.process_b_bg7 b {
+    background-position: 0 -284px;
+}

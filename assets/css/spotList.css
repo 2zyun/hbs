@@ -1,0 +1,72 @@
+@charset 'utf-8';
+/* spot list css  */
+
+.filterrow {
+  line-height: 30px;
+  height: 30px;
+  overflow-y: hidden;
+  font-size: 13px;
+}
+
+.filterrow .filtertitle {
+  font-weight: bold;
+  color: #666;
+  width: 8%;
+  text-align: left;
+  float: left;
+}
+
+.filterrow .filtercriteria {
+  margin: 0;
+  padding: 0;
+  width: 84%;
+  float: left;
+}
+
+.filterrow .filtercriteria li {
+  display: inline-block;
+}
+
+.filterrow .filtercriteria li a {
+  padding: 5px;
+  color: inherit;  
+  text-decoration: none;
+}
+
+.filterrow .filtercriteria li a:hover {
+  color: #c81623;
+}
+
+.filterrow .filtercriteria li a.selected {
+  color: #c81623;
+}
+
+.filterrow .filtermore {
+  width: 8%;
+  float: right;
+  text-align: right;
+  cursor: pointer;
+}
+
+.filterrow .filtermore span {
+  padding: 5px 5px;
+  border: 1px solid #dedede;
+}
+
+.filterrow .filtermore span:hover {
+  border-color: #c81623;
+  color: #c81623;
+}
+.spot{
+	display: block;
+	/*width: 900px;*/
+}
+
+.spot dl{ border: 1px solid #ffffff; }
+.spot dl:hover{ border-color: #dedede; }
+.spot  dt{ width: 150px; margin-right: 15px; }
+.spot  dt img{ width:150px; height: 120px; }
+.spot dd{ width: 730px; }
+.spot dd span { display: inline-block; height: 28px; line-height: 28px; vertical-align: baseline; }
+
+.panel-default.b0{ border-color: transparent; }

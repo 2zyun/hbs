@@ -1,0 +1,58 @@
+{
+    "nav": {
+      "home": "首页",
+      "page1": "现货商城",
+      "page2": "自主采购"
+    },
+    
+    "inventory":"库存：",
+    "tons":"吨",
+    "price":"价格：",
+    "location":"所在地：",
+    "orderNow":"立即下单",
+    "sortByDefault":"默认",
+    "sortByPrice":"价格",
+    "sortByInventory":"库存量",
+    "inventory":"库存：",
+    "tons":"吨",
+    "price":"价格：",
+    "location":"所在地：",
+    "orderNow":"立即下单",
+
+    "phone":"手机号：",
+    "ph_phone":"手机号",
+    "uname":"用户名：",
+    "ph_uname":"用户名",
+    "mail":"电子邮箱：",
+    "ph_mail":"电子邮箱",
+    "qq":"绑定QQ：",
+    "ph_qq":"绑定QQ",
+    "register":"注册类型：",
+    "ph_register":"注册类型",
+    "contact":"联系人电话：",
+    "ph_contact":"联系人电话", 
+    "ph_area":"区号",
+    "ph_telephone":"电话号码",
+    "ph_runNumber":"分机号",
+    "major":"主营：",
+    "region":"地区：",
+    "userType":"用户类型：",
+
+    "onpPssword":"当前密码：",
+    "ph_onpPssword":"请输入当前密码",
+    "newPassword":"新密码：",
+    "ph_newPassword":"请填写密码",
+    "surePassword":"确认密码：",
+    "ph_surePassword":"请再次填写密码",
+
+    "profile":"收货地址",
+    "account":"账户信息",
+    "changePassword":"修改密码",
+
+    "userCont":"会员中心",
+
+    "btn_submit":"提交",
+    "btn_save":"保存"
+
+
+  }

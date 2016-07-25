@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> hbs </title>
+    <meta name="generator" content="sublime">
+    <meta name="author" content="zy">
+    <meta name="keywords" content="handlebars">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/spotList.css">
+</head>
+
+<body>
+    <section class="container spot"></section>
+    <!--================================此出为requirejs入口，data-main为配置的入口================================-->
+    <script src="../node_modules/requirejs/require.js" defer async="true"  data-main="../assets/js/modules/config"></script>
+
+    <script id="spotList" type="text/x-handlebars-template">
+        {{#each JsonData}}
+            <dl class="clearfix">
+                <dt class="fl"><a href="javascript:;"><img src="{{xphoto}}" alt="{{Title}}"></a></dt>
+            <dd class="fl">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-xs-12">
+                            {{OfferType}}
+                            <p class="f16 fb">{{Title}}</p>
+                            </div>
+                        </div>
+                    <div class="row">
+                        <div class="col-xs-3"><span data-i18n="inventory"></span><span class="f20 fb num">{{xznum}}</span><span data-i18n="tons"></span></div>
+                        <div class="col-xs-4"><span data-i18n="price"></span><span class="f20 fb num">{{xprice}}</span></div>
+                        <div class="col-xs-5"><span data-i18n="location"></span>{{xaddress}}</div>
+                    </div>
+                    </div>
+                    <div class="clearfix visible-xs-block"></div>
+                    <div class="col-md-4"><a href="javascript:;" class="btn btn-default btn_pink mt10" data-i18n="orderNow"></a></div>
+                </div>
+            </dd>
+            </dl>
+        {{/each}}
+    </script> 
+</body>
+</html>

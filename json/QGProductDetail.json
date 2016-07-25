@@ -1,0 +1,76 @@
+{
+  "Info": {
+    "GqId": 4832298,
+    "Uid": 1660022,
+    "Title": "测试01",
+    "Type": 1,
+    "YxDate": 3650,
+    "Photo": "http://192.168.1.5:8006/Product/2016/07/13/49ff9331-28a9-4b38-a380-22bb0255be1f.jpg",
+    "VisitNum": 0,
+    "GqStatus": 1,
+    "ProNum": 10,
+    "ProAddress": "天津",
+    "ProPrice": 1.00,
+    "Province": 2,
+    "City": 362,
+    "Area": 19,
+    "Product_ClassID": 89,
+    "ClassName": "HDPE",
+    "ContactPerson": "",
+    "FbDate": "2016/7/13 11:51:50",
+    "InfoType": 0,
+    "ContactPersonMobile": 18911276564,
+    "ContactPersonTelePhone": "",
+    "CreateDate": "2016/7/13 11:51:50"
+  },
+  "Photos": [
+    {
+      "pid": 71381,
+      "GqId": 4832298,
+      "photo": "http://192.168.1.5:8006/Product/2016/07/13/49ff9331-28a9-4b38-a380-22bb0255be1f.jpg",
+      "show": 1
+    },
+    {
+      "pid": 71382,
+      "GqId": 4832298,
+      "photo": "http://192.168.1.5:8006/Product/2016/07/13/d4a91140-fef3-4149-9034-5b34e248af37.jpg",
+      "show": 1
+    },
+    {
+      "pid": 71381,
+      "GqId": 4832298,
+      "photo": "http://192.168.1.5:8006/Product/2016/07/13/49ff9331-28a9-4b38-a380-22bb0255be1f.jpg",
+      "show": 1
+    },
+    {
+      "pid": 71382,
+      "GqId": 4832298,
+      "photo": "http://192.168.1.5:8006/Product/2016/07/13/d4a91140-fef3-4149-9034-5b34e248af37.jpg",
+      "show": 1
+    },
+    {
+      "pid": 71381,
+      "GqId": 4832298,
+      "photo": "http://192.168.1.5:8006/Product/2016/07/13/49ff9331-28a9-4b38-a380-22bb0255be1f.jpg",
+      "show": 1
+    }
+  ],
+  "sub": {
+    "GqId": 4832298,
+    "Impurity": 21,
+    "Moisture": 22,
+    "Density": 2,
+    "DensityValue": 20,
+    "Packing": "打包",
+    "SingleWeight": 0,
+    "LayerNumber": 1,
+    "Meshnumber": 2,
+    "Calcium": 0,
+    "Processing": "",
+    "Combustion": "",
+    "Description": "&lt;p&gt;产品描述&lt;br/&gt;&lt;/p&gt;",
+    "ObjectProperty": "&lt;p&gt;物性&lt;/p&gt;",
+    "UsedFor": "用途",
+    "Color": "红色"
+  }
+}
